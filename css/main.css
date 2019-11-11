@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  background-color: #eee9de;
+  display: inline-block;
+  padding: .4em .75em .5em;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+  display: inline;
+}
+
+p {
+  font-family: Lato, sans-serif;
+  padding: 1em;
+  max-width: 70%;
+}
+
+div {
+  text-decoration: none;
+  font-family: Lato700, sans-serif;
+  color: #333;
+  padding: 1em;
+}
